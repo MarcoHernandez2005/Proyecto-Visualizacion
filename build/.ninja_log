@@ -1,0 +1,22 @@
+# ninja log v7
+61	1341	8153476041769044	CMakeFiles/ProyectoMedioSemestre.dir/src/WindowGL.cpp.obj	d6fb3c61f52d4c39
+100	2820	8153476042175334	CMakeFiles/ProyectoMedioSemestre.dir/include/imgui/imgui_tables.cpp.obj	d1638557a5a2102
+86	3891	8153476042026512	CMakeFiles/ProyectoMedioSemestre.dir/include/imgui/imgui_draw.cpp.obj	c7f8fac04a719ada
+144	3989	8153476042588379	CMakeFiles/ProyectoMedioSemestre.dir/include/imgui/imgui_widgets.cpp.obj	e432521c474a6ba7
+72	4872	8153476041867410	CMakeFiles/ProyectoMedioSemestre.dir/include/imgui/imgui.cpp.obj	8ad4438f974edaa9
+98	1683	8153476225917819	CMakeFiles/ProyectoMedioSemestre.dir/include/imgui/imgui_impl_opengl3.cpp.obj	2be6ae411bec0876
+85	2236	8153476225659118	CMakeFiles/ProyectoMedioSemestre.dir/include/imgui/imgui_impl_glfw.cpp.obj	e6471537ed7dd069
+66	1990	8153482125876451	CMakeFiles/ProyectoMedioSemestre.dir/src/OrbitCamera.cpp.obj	946a8965319540a8
+56	2388	8153482125717528	CMakeFiles/ProyectoMedioSemestre.dir/src/ShaderProgram.cpp.obj	b03ce8ac6f85c04d
+45	2597	8153482125628307	CMakeFiles/ProyectoMedioSemestre.dir/src/Model.cpp.obj	5c803a104df50c47
+44	1609	8153483210039971	CMakeFiles/ProyectoMedioSemestre.dir/src/main.cpp.obj	6ac3579ceb7cd35
+57	1947	8153483210586112	CMakeFiles/ProyectoMedioSemestre.dir/src/Scene.cpp.obj	da454df4fcac3a1
+10	2036	8153484744088919	CMakeFiles/ProyectoMedioSemestre.dir/src/Scene.cpp.obj	da454df4fcac3a1
+2038	2379	8153484764331369	ProyectoMedioSemestre.exe	5e1ffce874e09a13
+67	2267	8153489391985804	CMakeFiles/ProyectoMedioSemestre.dir/src/Model.cpp.obj	5c803a104df50c47
+2269	2911	8153489413999175	ProyectoMedioSemestre.exe	5e1ffce874e09a13
+13	2488	8153493324507805	CMakeFiles/ProyectoMedioSemestre.dir/src/Model.cpp.obj	5c803a104df50c47
+2490	3130	8153493349291631	ProyectoMedioSemestre.exe	5e1ffce874e09a13
+24	2414	8153497306717505	CMakeFiles/ProyectoMedioSemestre.dir/src/Model.cpp.obj	5c803a104df50c47
+12	2427	8153497306664731	CMakeFiles/ProyectoMedioSemestre.dir/src/Scene.cpp.obj	da454df4fcac3a1
+2427	2993	8153497330877678	ProyectoMedioSemestre.exe	5e1ffce874e09a13
