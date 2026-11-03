@@ -15,9 +15,7 @@ Se cumplieron los requisitos extras:
 2. **Cámara Orbital:** Navegación 3D interactiva con el ratón.
 3. **Plano Matemático:** Evaluación de $f(x,z)=cos(x)+sin(z)$ en $[-2\pi,2\pi]\times[-2\pi,2\pi]$.
 
-## 📸 Capturas de Pantalla
-*(Aquí puedes mostrar cómo luce tu proyecto en ejecución)*
-
+## Capturas de Pantalla
 | Modelo 3D (Ej. Car / Bunny) | Interfaz Dear ImGui y Shaders |
 | :---: | :---: |
 | ![Modelo 3D](screenshots/modelo.png) | ![Interfaz ImGui](screenshots/interface.png) |
