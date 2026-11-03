@@ -1,23 +1,21 @@
 #version 330 core
-in vec3 FragPos;
-in vec3 Normal;
+in float heightFactor;
 out vec4 FragColor;
 
-uniform float minY;
-uniform float maxY;
-uniform int useHeightColor;
-
 void main() {
-    if (useHeightColor == 1) {
-        float t = clamp((FragPos.y - minY) / (maxY - minY), 0.0, 1.0);
-        vec3 baseColor = (t < 0.5) ? mix(vec3(0,0,1), vec3(1,1,0), t*2.0) : mix(vec3(1,1,0), vec3(1,0,0), (t-0.5)*2.0);
-        
-        vec3 lightDir = normalize(vec3(0.5, 1.0, 0.3));
-        vec3 n = normalize(Normal);
-        float diff = max(dot(n, lightDir), 0.0);
-        FragColor = vec4(baseColor * (0.3 + 0.7 * diff), 1.0);
+    // Definir colores del mapa: Azul (bajo), Amarillo (medio), Rojo (alto)[cite: 4]
+    vec3 blue   = vec3(0.0, 0.0, 1.0);
+    vec3 yellow = vec3(1.0, 1.0, 0.0);
+    vec3 red    = vec3(1.0, 0.0, 0.0);
+
+    vec3 color;
+    if (heightFactor < 0.5) {
+        // Interpola entre Azul y Amarillo para la mitad inferior
+        color = mix(blue, yellow, heightFactor * 2.0);
     } else {
-        // Para los ejes (usan el color que viene del VBO)
-        FragColor = vec4(Normal, 1.0); // Reutilizamos el atributo 1 como color para los ejes
+        // Interpola entre Amarillo y Rojo para la mitad superior
+        color = mix(yellow, red, (heightFactor - 0.5) * 2.0);
     }
+
+    FragColor = vec4(color, 1.0);
 }

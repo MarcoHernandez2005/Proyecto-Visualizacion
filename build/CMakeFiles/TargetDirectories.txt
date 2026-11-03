@@ -1,3 +1,3 @@
-C:/Users/Libni/Documents/Optativas/Visualizacion/Proyecto Medio Semestre/build/CMakeFiles/ProyectoMedioSemestre.dir
-C:/Users/Libni/Documents/Optativas/Visualizacion/Proyecto Medio Semestre/build/CMakeFiles/edit_cache.dir
-C:/Users/Libni/Documents/Optativas/Visualizacion/Proyecto Medio Semestre/build/CMakeFiles/rebuild_cache.dir
+C:/Users/lapma/OneDrive/Documentos/Semestre 27-1/VisualizaciónPersonal/Proyecto-Visualizacion/build/CMakeFiles/ProyectoMedioSemestre.dir
+C:/Users/lapma/OneDrive/Documentos/Semestre 27-1/VisualizaciónPersonal/Proyecto-Visualizacion/build/CMakeFiles/edit_cache.dir
+C:/Users/lapma/OneDrive/Documentos/Semestre 27-1/VisualizaciónPersonal/Proyecto-Visualizacion/build/CMakeFiles/rebuild_cache.dir
