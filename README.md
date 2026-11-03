@@ -16,8 +16,10 @@ Se cumplieron los requisitos extras:
 3. **Plano Matemático:** Evaluación de $f(x,z)=cos(x)+sin(z)$ en $[-2\pi,2\pi]\times[-2\pi,2\pi]$.
 
 ## Capturas de Pantalla
-| Modelo 3D (Ej. Car / Bunny) | Interfaz Dear ImGui y Shaders |
+| Modelo |
 | :---: | :---: |
+| ![Modelo 3D](Capturas de Pantalla/C1.png) | ![Modelo 3D](screenshots/interface.png) |
+| ![Modelo 3D](screenshots/modelo.png) | ![Interfaz ImGui](screenshots/interface.png) |
 | ![Modelo 3D](screenshots/modelo.png) | ![Interfaz ImGui](screenshots/interface.png) |
 
 ## Cómo compilar y ejecutar
