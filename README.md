@@ -13,14 +13,16 @@ Visualizador 3D en C++ utilizando OpenGL, GLFW, GLEW y GLM. El programa centra l
 Se cumplieron los requisitos extras:
 1. **Interfaz Gráfica:** Dear ImGui para seleccionar modelos, modos de dibujo y transformaciones.
 2. **Cámara Orbital:** Navegación 3D interactiva con el ratón.
-3. **Plano Matemático:** Evaluación de $f(x,z)=cos(x)+sin(z)$ en $[-2\pi,2\pi]\times[-2\pi,2\pi]$.
+3. **Plano Matemático:** Evaluación de $f(x,z)=\cos(x)+\sin(z)$ en $[-2\pi,2\pi]\times[-2\pi,2\pi]$.
 
-## Capturas de Pantalla
-| Modelo |
+## 📸 Capturas de Pantalla
+
+| Vista 1 | Vista 2 |
 | :---: | :---: |
-| ![Modelo 3D](Capturas de Pantalla/C1.png) | ![Modelo 3D](screenshots/interface.png) |
-| ![Modelo 3D](screenshots/modelo.png) | ![Interfaz ImGui](screenshots/interface.png) |
-| ![Modelo 3D](screenshots/modelo.png) | ![Interfaz ImGui](screenshots/interface.png) |
+| ![Captura 1](Capturas%20de%20Pantalla/C1.png) | ![Captura 2](Capturas%20de%20Pantalla/C2.png) |
+| ![Captura 3](Capturas%20de%20Pantalla/C3.png) | ![Captura 4](Capturas%20de%20Pantalla/C4.png) |
+| ![Captura 5](Capturas%20de%20Pantalla/C5.png) | ![Captura 6](Capturas%20de%20Pantalla/C6.png) |
+| ![Captura 7](Capturas%20de%20Pantalla/C7.png) | |
 
 ## Cómo compilar y ejecutar
 **Requisitos:** MSYS2 (UCRT64), CMake y Ninja.
